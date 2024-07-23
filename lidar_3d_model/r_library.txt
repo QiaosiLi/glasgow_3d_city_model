@@ -1,0 +1,10 @@
+Installing R and RStudio:
+https://rstudio-education.github.io/hopr/starting.html
+
+Install library:
+https://www.dataquest.io/blog/install-package-r/
+
+Required library:
+lidR
+sf
+raster
