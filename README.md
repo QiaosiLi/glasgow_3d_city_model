@@ -21,4 +21,5 @@ Our datasets are open in [Urban Big Data Centre data catalogue](https://data.ubd
 
 ## Citation 
 If you find our work useful, please consider citing:
+
 Glasgow City Council/Urban Big Data Centre (2024). Glasgow 3D city models derived from airborne LiDAR point clouds open data [Data set]. University of Glasgow. https://doi.org/10.20394/opvkevmj
