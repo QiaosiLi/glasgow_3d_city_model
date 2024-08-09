@@ -19,7 +19,21 @@ Our datasets are open in [Urban Big Data Centre data catalogue](https://data.ubd
 
 [The annotated ALS point cloud dataset](https://data.ubdc.ac.uk/datasets/glasgow-3d-city-models-derived-from-airborne-lidar-point-clouds-licensed-data) includes the annotated point clouds that were prepared to train and validate point cloud classification with the SQN algorithm. The annotated point cloud data can be used to train a deep learning model for point cloud classification or as a benchmark dataset to advance point cloud manipulation.
 
-## Citation 
+### Citation 
 If you find our work useful, please consider citing:
 
-Glasgow City Council/Urban Big Data Centre (2024). Glasgow 3D city models derived from airborne LiDAR point clouds open data [Data set]. University of Glasgow. https://doi.org/10.20394/opvkevmj
+        @misc{https://doi.org/10.20394/vwyl2on6,
+          doi = {10.20394/VWYL2ON6},
+          url = {https://data.ubdc.ac.uk/dataset/8bccf530-0f07-4ff3-a8d5-443328fcd415},
+          author = {{Urban Big Data Centre}},
+          keywords = {Urban Planning},
+          language = {en},
+          title = {Glasgow 3D city models derived from airborne LiDAR point clouds licensed data},
+          publisher = {University of Glasgow},
+          year = {2024}
+       }
+
+## Related Repository
+1. [SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds](https://github.com/QingyongHu/SQN)
+2. [City3D: Large-scale Building Reconstruction from Airborne LiDAR Point Clouds](https://github.com/tudelft3d/City3D)
+3. [SQN_ALS_Classification](https://github.com/QiaosiLi/SQN_ALS_Classification)
