@@ -1,6 +1,6 @@
 
 
-Here is GitHub repository of the City3D:
+How to building City3D:
 [](https://github.com/tudelft3d/City3D)
 
 Tested system: Ubuntu20.04
