@@ -13,7 +13,7 @@ The figure shows an example result of tree and building models at LoD1 ana LoD2 
 We used Python, R, C++, CloudCompare (2.12.4), and ArcGIS Pro (3.2) to process ALS data and generate datasets. Following instruction of [SQN](https://github.com/QingyongHu/SQN?tab=readme-ov-file) to set up. SQN code for point cloud classification has been implemented with Python 3.6, TensorFlow 1.11.0, CUDA 9.0, and cuDNN 7.4.1 on Ubuntu 18.04.6. To use our [modified SQN code](https://github.com/QiaosiLi/SQN_ALS_Classification) and [annotated point cloud](https://data.ubdc.ac.uk/datasets/glasgow-3d-city-models-derived-from-airborne-lidar-point-clouds-licensed-data), and pretrain model to conduct point cloud classification. and Following [City3D](https://github.com/tudelft3d/City3D) to install and built. City3D used to construct the LoD2 building models has been implemented with Qt5 5.15.9, CGAL5.5.2, OpenCV 4.7.0, and Gurobi 10.0.1, Vision Studio 2022, 17.5.5 on Windows 10 and with Qt5 5.15.3, CGAL5.4.1, OpenCV 4.5,1 and Gurobi 11.0.0 on Ubuntu 22.04.4. This [file](https://github.com/QiaosiLi/construct_building_tree_3d_models_by_lidar/blob/master/lidar_3d_model/city3d/How%20to%20building%20City3D.md) is our step-by-step guidance to build City3D on Ubuntu 22.04.4. 
  
 ## Datasets
-Our datasets are open in [Urban Big Data Centre data catalogue](https://data.ubdc.ac.uk/datasets/glasgow-3d-city-models-derived-from-airborne-lidar-point-clouds-open-data). 
+Our datasets are open in [Urban Big Data Centre data catalogue](https://data.ubdc.ac.uk/datasets/glasgow-3d-city-models-derived-from-airborne-lidar-point-clouds-open-data) and [Zenodo](https://zenodo.org/records/13273124). 
 
 [Glasgow 3D building model data](https://data.ubdc.ac.uk/datasets/glasgow-3d-city-models-derived-from-airborne-lidar-point-clouds-open-data/resource/2198e2b3-8576-4a25-9f85-6f16bae633d4) contain building footprints with height attributes and 3D building modeling at LoD1 and LoD2 levels for Glasow City.
 
@@ -23,7 +23,7 @@ Our datasets are open in [Urban Big Data Centre data catalogue](https://data.ubd
 
 [The annotated ALS point cloud dataset](https://data.ubdc.ac.uk/datasets/glasgow-3d-city-models-derived-from-airborne-lidar-point-clouds-licensed-data) includes the annotated point clouds that were prepared to train and validate point cloud classification with the SQN algorithm. The annotated point cloud data can be used to train a deep learning model for point cloud classification or as a benchmark dataset to advance point cloud manipulation.
 
-### Citation 
+## Citation 
 If you find our work useful, please consider citing:
 
         @misc{https://doi.org/10.20394/vwyl2on6,
