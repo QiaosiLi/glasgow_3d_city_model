@@ -1,8 +1,9 @@
-# Large-scale 3D building model datasets constructed from airborne LiDAR point clouds for Glasgow City, UK
+# Large-scale 3D building and tree datasets constructed from airborne LiDAR point clouds in Glasgow, UK
 ## About this project
 
-3D building models offer visual representation of the built environment, enabling interaction, analysis, and exploration of urban landscapes like never before. This project used large-scale high-density airborne LiDAR scanning (ALS) point clouds to produce 3D building model dataset for Glasgow City. We proposed an efficient workflow that integrated open source tool weakly supervised deep learning algorithm SQN for point cloud classification and a data-driven method City3D for 3D building reconstruction.The output includes building footprints, height attributes, building models at LoD1 and LoD2, canopy height models, and indivual tree location.This dataset in city-wide scale and high accuracy would be a valuable source for urban environmental applications. The proposed workflow would provide a guideline for large-scale ALS data analysis from point cloud classification to 3D model construction. 
-![Slide5](https://github.com/user-attachments/assets/529b40c4-1fb7-4f83-8a5a-769af939f77d)
+3D building models offer visual representation of the built environment, enabling interaction, analysis, and exploration of urban landscapes like never before. This project used large-scale high-density airborne LiDAR scanning (ALS) point clouds to produce 3D building model dataset for Glasgow City. We proposed an efficient workflow that integrated open source tool weakly supervised deep learning algorithm SQN for point cloud classification and a data-driven method City3D for 3D building reconstruction.The output includes building footprints, height attributes, building models at LoD1 and LoD2, canopy height models, tree volume, and indivual tree location.This dataset in city-wide scale and high accuracy would be a valuable source for urban environmental applications. The proposed workflow would provide a guideline for large-scale ALS data analysis from point cloud classification to 3D model construction. 
+
+![workflow](https://github.com/user-attachments/assets/2adf8d92-950f-41d7-8b3e-28f0ef9d60aa)
 
 The figure shows an example result of tree and building models at LoD1 ana LoD2 level.
 
