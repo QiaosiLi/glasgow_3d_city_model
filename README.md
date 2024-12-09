@@ -15,14 +15,10 @@ We used Python, R, C++, CloudCompare (2.12.4), and ArcGIS Pro (3.2) to process A
  
 ## Datasets
 Our datasets are open in [Urban Big Data Centre data catalogue](https://data.ubdc.ac.uk/datasets/glasgow-3d-city-models-derived-from-airborne-lidar-point-clouds-open-data) and [Zenodo](https://zenodo.org/records/13273124). 
+The data structure is shown in the figure below.
+![lidar_remote_sensing_ql_2024](https://github.com/user-attachments/assets/460823d2-a31a-4be5-b8b6-1d288253db0a)
 
-[Glasgow 3D building model data](https://data.ubdc.ac.uk/datasets/glasgow-3d-city-models-derived-from-airborne-lidar-point-clouds-open-data/resource/2198e2b3-8576-4a25-9f85-6f16bae633d4) contain building footprints with height attributes and 3D building modeling at LoD1 and LoD2 levels for Glasow City.
-
-[Glasgow terrain data](https://data.ubdc.ac.uk/datasets/glasgow-3d-city-models-derived-from-airborne-lidar-point-clouds-open-data/resource/a0135e4b-b958-4f50-8f94-9ba881c41440) include DTM, DSM, and nDSM in 0.5 m spatial resoultion.
-
-[Glasgow tree canopy data](https://data.ubdc.ac.uk/datasets/glasgow-3d-city-models-derived-from-airborne-lidar-point-clouds-open-data/resource/1d6ea863-7480-4eb5-a0ef-9dec329a14c8) include 0.5m CHM and treetop location.
-
-[The annotated ALS point cloud dataset](https://data.ubdc.ac.uk/datasets/glasgow-3d-city-models-derived-from-airborne-lidar-point-clouds-licensed-data) includes the annotated point clouds that were prepared to train and validate point cloud classification with the SQN algorithm. The annotated point cloud data can be used to train a deep learning model for point cloud classification or as a benchmark dataset to advance point cloud manipulation.
+Note: Annotated point clouds that were prepared to train and validate point cloud classification with the SQN algorithm. The annotated point cloud data can be used to train a deep learning model for point cloud classification or as a benchmark dataset to advance point cloud manipulation.
 
 ## Citation 
 If you find our work useful, please consider citing:
